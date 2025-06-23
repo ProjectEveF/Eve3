@@ -71,3 +71,9 @@ body {
 #counter {
     font-size: 18px;
 }
+
+footer {
+    text-align: center;
+    font-size: 28px;
+    background-color: #000;
+}
