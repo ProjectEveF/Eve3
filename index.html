@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="top-banner">
+        <img src="assets/banner-top.png" alt="Top Banner">
+    </div>
+
+    <div id="page-container">
+        <div id="side-left">
+            <img src="assets/banner-left.png" alt="Left Banner">
+        </div>
+
+        <div id="main-content">
+            <div id="logo-container">
+                <img src="assets/logo.png" alt="Logo" id="logo">
+            </div>
+
+            <div id="viewer">
+                <img id="event-image" src="upload/event1.png" alt="Eventbild" onclick="nextImage()">
+            </div>
+
+            <div id="counter">
+                <span id="counter-text">1 / 21</span>
+            </div>
+        </div>
+
+        <div id="side-right">
+            <img src="assets/banner-right.png" alt="Right Banner">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
